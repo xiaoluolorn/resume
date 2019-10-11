@@ -1,16 +1,3 @@
-%%
-%% Copyright (c) 2018-2019 Weitian LI
-%% Copyright (c) 2016 Christophe Roger
-%% The LaTeX Project Public License (LPPL) Version 1.3c
-%%
-%% Resume LaTeX template.
-%% Based on
-%%     YACC: Another Awesome CV by Christophe Roger
-%%     https://github.com/darwiin/yaac-another-awesome-cv
-%% which is further based on
-%%     Plasmati Graduate CV by Alessandro Plasmati
-%%     https://www.latextemplates.com/template/plasmati-graduate-cv
-%%
 
 \ProvidesClass{resume}[2019/01/06 v2.4.1 Resume Class]
 \LoadClass{article}
