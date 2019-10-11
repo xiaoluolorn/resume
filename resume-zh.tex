@@ -1,0 +1,171 @@
+%%
+%% Copyright (c) 2018-2019 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Resume / Résumé
+%% A short document (1-2 pages) to sum up the job-related accomplishments
+%% and experience.
+%%
+%% Information Checklist:
+%% * Contact Information
+%% * Work History / Experience
+%% * Education
+%% * Skills
+%% * Summary & Objective (optional)
+%% * Hobbies & Interests (optional)
+%%
+%% References:
+%% * CV vs. Resume: What is the Difference? When to Use Which?
+%%   https://uptowork.com/blog/cv-vs-resume-difference
+%% * How to Make a Resume: A Step-by-Step Guide (+30 Examples)
+%%   https://uptowork.com/blog/how-to-make-a-resume
+%% * Entry-Level Resume: Sample and Complete Guide (+20 Examples)
+%%   https://uptowork.com/blog/entry-level-resume-example
+%%
+%% 2018-04-11
+%%
+
+% Chinese version
+\documentclass[zh]{resume}
+
+% File information shown at the footer of the last page
+\fileinfo{%
+  \faCopyright{} 2018--2019 Chaoyang LUO,
+  \creativecommons{by}{4.0},
+  \githublink{xiaoluolorn}{resume},
+  \faCalendarAlt{} \today
+}
+
+\name{朝阳}{罗}
+
+
+%\tagline{\getposition{} @ \getlocation}
+\taglineicon{\faBinoculars}
+
+\socialinfo{
+  \mobile{185-1968-9255}
+  \email{luochaoyang@live.cn}
+  \github{xiaoluolorn} \\
+  \university{中国社会科学院大学}
+  \degree{经济学 \textbullet 博士} \\
+  \address{北京}
+  \home{河南 \textbullet 开封}
+  \birthday{1990-03-04}
+}
+\photo{7em}{MG.jpg}
+\begin{document}
+\makeheader
+
+%======================================================================
+% Summary & Objectives
+%======================================================================
+{\onehalfspacing\hspace{2em}%
+数量经济学专业（宏观经济政策评价方向）博士研究生，有扎实的经济学、数学与统计学基础，
+擅长经济数据建模与分析，熟练掌握  Matlab、 Python、 R 和 Stata 语言编程，并
+在 \link{https://github.com/xiaoluolorn}{GitHub} 上分享多个项目。
+\par}  % NOTE: \par is needed
+
+%======================================================================
+% Competences / Skills & Languages
+\sectionTitle{技能和语言}{\faWrench}
+%======================================================================
+\begin{competences}
+  \comptence{编程语言}{%
+     Matlab, Python, R 和 Stata
+  }
+  \comptence{研究工具}{%
+    MySQL, Microsoft office Suites, \LaTeX
+  }
+  \comptence{数据分析}{%
+    R, Pandas, Stata; Matplotlib, ggplot2, Origin Pro
+  }
+  \comptence{\icon{\faLanguage} 语言}{
+    \textbf{英语} --- 读写（优良）, 听说（日常交流）
+  }
+\end{competences}
+
+%======================================================================
+% Education
+\sectionTitle{教育背景}{\faGraduationCap}
+%======================================================================
+\begin{educations}
+  \education%
+    {2017.09}%
+    {中国社会科学院大学}%
+    {数量经济与技术经济研究所}%
+    {数量经济学（金融风险方向）}%
+    {经济学博士（博士研究生，在读，预计 2020 年上半年毕业）}
+
+  \separator{0.5em}
+  \education%
+    {2014.09}%
+    [2017.06]%
+    {河南大学}%
+    {经济学院}%
+    {数量经济学（环境经济方向）}%
+    {经济学硕士}
+
+  \separator{0.5em}
+  \education%
+    {2009.09}%
+    [2013.06]%
+    {河南农业大学}%
+    {工商管理系}%
+    {工商管理}%
+    {管理学学士}
+\end{educations}
+
+%======================================================================
+% Computer Skills
+\sectionTitle{计算机技能}{\faCode}
+%======================================================================
+\begin{itemize}
+  \item 自写Matlab程序，将Geoda空间权重文件转变成Matlab空间权重矩阵。
+  \item 自写R程序，计算中国公司债券到期收益率问题。
+\end{itemize}
+%======================================================================
+% Internships
+\sectionTitle{实习经历}{\faBriefcase}
+%======================================================================
+\begin{experiences}
+  \experience
+    [2018.12]%
+    {2019.10 }%
+    {新闻数据搜集 \@. 国务院研究中心}%
+    [\begin{itemize}
+      \item 从多种渠道搜集我国宏观经济运行情况相关新闻。
+    \end{itemize}]%
+
+\end{experiences}
+%======================================================================
+\sectionTitle{科研成果}{\faAtom}
+%======================================================================
+\begin{itemize}
+  \small
+  \item 参与项目:
+    \enquote{我国经济增长潜力及周期规律研究} (项目支持: 国家发展改革委员会, 主要参与人员).
+  \item \textbf{罗朝阳}, 李雪松,
+    \enquote{\it 产业结构升级、技术进步与中国能源效率,}
+    2019.01, 经济问题探索 (CSSCI)
+  \item 李雪松,\textbf{罗朝阳},
+    \enquote{\it 金融周期、美联储加息与金融危机,}
+    2019.10, 财贸经济 (CSSCI)
+  \item \textbf{罗朝阳}, 李雪松,
+    \enquote{\it 金融周期、生产率与企业债券违约,}
+    2019, 经济管理 (外审中; CSSCI)
+\end{itemize}
+
+%======================================================================
+% Awards / Scholarships / Certificates
+\sectionTitle{获奖及证书}{\faAward}
+%======================================================================
+\begin{entries}
+  \entry{2017年}%
+    {中国社会科学院大学优秀研究生}
+  \entry{2018年}%
+    {中国社会科学院大学优秀研究生}
+\end{entries}
+
+\end{document}
+
+%% EOF

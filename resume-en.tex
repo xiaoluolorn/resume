@@ -1,0 +1,188 @@
+%%
+%% Copyright (c) 2018-2019 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Resume / Résumé
+%% A short document (1-2 pages) to sum up the job-related accomplishments
+%% and experience.
+%%
+%% Information Checklist:
+%% * Contact Information
+%% * Work History / Experience
+%% * Education
+%% * Skills
+%% * Summary & Objective (optional)
+%% * Hobbies & Interests (optional)
+%%
+%% References:
+%% * CV vs. Resume: What is the Difference? When to Use Which?
+%%   https://uptowork.com/blog/cv-vs-resume-difference
+%% * How to Make a Resume: A Step-by-Step Guide (+30 Examples)
+%%   https://uptowork.com/blog/how-to-make-a-resume
+%% * Entry-Level Resume: Sample and Complete Guide (+20 Examples)
+%%   https://uptowork.com/blog/entry-level-resume-example
+%%
+%% 2018-04-14
+%%
+
+% English version
+\documentclass{resume}
+\usepackage{fontawesome}
+\setmainfont{Times New Roman}
+% File information shown at the footer of the last page
+\fileinfo{%
+  \faCopyright{} 2018--2019 Chaoyang LUO,
+  \creativecommons{by}{4.0},
+  \githublink{xiaoluolorn}{resume},
+  \faCalendarAlt{} \today
+}
+
+\name{Chaoyang}{LUO}
+%\setposition{Cloud Computing Development Engineer}
+%\setlocation{Shenzhen}
+
+%\tagline{\getposition{} @ \getlocation}
+\taglineicon{\faBinoculars}
+%\keywords{\getposition, \getlocation, Python, Linux, BSD}
+%\photo{7em}{photo}
+
+% NOTE: adjust the ordering and styles w.r.t. Chinese version
+\socialinfo{
+  \mobile{185-1968-9255}
+  \email{luochaoyang@live.cn}
+  \github{xiaoluolorn} \\
+  \degree{Ph.D. in Economics}
+  \university{University of Chinese Academy of Social Sciences (UCASS)} \\
+  \address{Beijing}
+  \home{Kaifeng, Henan}
+  \birthday{March 04, 1990}
+}
+
+\begin{document}
+\makeheader
+
+%======================================================================
+% Summary & Objectives
+%======================================================================
+Highly-motivated Ph.D\@. in Economics (Quantitative Economics) with good foundations
+of Economics, math and statistics.
+Proficient in data modeling and analysis.
+familiar with Matlab, Python, R and Stata programming.
+Shared multiple projects on my
+\link{https://github.com/xiaoluolorn}{GitHub}.
+
+%Looking to fill a position as a \textbf{\getposition}
+%Looking to join your company that I can grow with as I achieve
+%company goals.
+
+%======================================================================
+% Competences / Skills & Languages
+\sectionTitle{Competences \& Languages}{\faWrench}
+%======================================================================
+\begin{competences}[10em]
+  \comptence{Programming}{%
+    Matlab, R, Stata and Python
+  }
+  \comptence{Research Tools}{%
+    MySQL, Microsoft office Suites, \LaTeX
+  }
+  \comptence{Data Analysis}{%
+    R, Pandas, Stata; Matplotlib, ggplot2, Origin Pro
+  }
+  \comptence{\icon{\faLanguage} Languages}{
+    \textbf{English} ---
+      reading \& writing (good);
+      listening \& speaking (conversant)
+  }
+\end{competences}
+
+%======================================================================
+% Education
+\sectionTitle{Education}{\faGraduationCap}
+%======================================================================
+\begin{educations}
+  \education%
+    {September 2017}%
+    {University of Chinese Academy of Social Sciences}%
+    {Institute of Quantitative \& Technical Economics}%
+    {Economics (Quantitative Economics)}%
+    {Ph.D\@. (candidate; to graduate in the first half of 2020)}
+
+  \separator{0.5em}
+  \education%
+    {September 2014}%
+    [June 2017]%
+    {Henan University}%
+    {School of Economics}%
+    {Economics (Quantitative Economics)}%
+    {Master's Degree}
+
+  \separator{0.5em}
+  \education%
+    {September 2008}%
+    [June 2014]%
+    {Henan Agricultural University}%
+    {School of International Education}%
+    {Business Management}%
+    {Bachelor's Degree}
+\end{educations}
+
+
+
+% Computer Skills
+\sectionTitle{Computer Skills}{\faCode}
+%======================================================================
+\begin{itemize}
+  \item Self-written Matlab program to calculate spatial econometric space weight matrix.
+  \item Self-written R program to calculate the Yield-to-Mature of corporate bond issued in China.
+
+\end{itemize}
+
+%======================================================================
+% Internships
+\sectionTitle{Internships}{\faBriefcase}
+%======================================================================
+\begin{experiences}
+  \experience
+    [December 2018]%
+    {October 2019}%
+    {News Collecting \@. State Council Research Center}%
+    [\begin{itemize}
+      \item Search Macroeconomic news from various sources.
+    \end{itemize}]%
+
+\end{experiences}
+
+%======================================================================
+% Papers / Publications
+\sectionTitle{Research Achievements}{\faAtom}
+%======================================================================
+\begin{itemize}
+  \small
+  \item Participated in research projects:
+    \enquote{Research on China's Economic Growth Potential and Cycle Law} (Sponsored: National Development and Reform Commission, main members).
+  \item \textbf{Luo Chaoyang}, Li Xuesong,
+    \enquote{\it Industrial Structure Upgrade, Technological Progress and the Energy Efficiency of China -- An Empirical Analysis Based on Non-Dynamic Panel Threshold Model,}
+    2019.01, Inquiry into Economic Issues (CSSCI)
+  \item Li Xuesong,\textbf{Luo Chaoyang},
+    \enquote{\it Financial Cycle, Fed Rate Hike and Financial Crisis,}
+    2019.10, Finance \& Trade Economics (CSSCI)
+  \item \textbf{Luo Chaoyang}, Li Xuesong,
+    \enquote{\it Financial Cycle, Productivity and Corporate Bond Default,}
+    2019, Business Management Journal (in revision; CSSCI)
+\end{itemize}
+
+%======================================================================
+% Awards / Scholarships / Certificates
+\sectionTitle{Awards \& Certificates}{\faAward}
+%======================================================================
+\begin{entries}
+  \entry{November 2017}%
+    {Outstanding Ph.D. Student of UCASS}
+  \entry{December 2018}%
+    {Outstanding Ph.D. Student of UCASS}
+\end{entries}
+
+\end{document}
+
+%% EOF
